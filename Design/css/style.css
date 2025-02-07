@@ -9862,7 +9862,7 @@ h6,
   width: 13px;
   height: 13px;
   top: 0;
-  background: #6D3092;
+  background: #7AB730;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
 }
@@ -9880,7 +9880,6 @@ h6,
 .tour-details-wrap ul.tour-details {
   padding: 0;
   margin: 0;
-  /* list-style: none; */
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -9889,7 +9888,6 @@ h6,
 .tour-details-wrap ul.tour-details li {
   width: 100%;
   display: flex;
-  /* margin-bottom: 26px; */
 }
 
 .tour-details-wrap ul.tour-details li .details-list.details-empty {
@@ -9913,18 +9911,10 @@ h6,
 .tour-details-wrap ul.tour-details li:nth-child(even) .details-list::before {
   left: -34px;
 }
-/* .tour-details-wrap ul.tour-details li .details-list.details-empty {
-  background: none;
-  border: none;
-  box-shadow: none;
-} */
 
 .tour-details-wrap ul.tour-details li .details-list ul li {
   font-weight: 400;
-  /* font-size: 12px; */
-  /* line-height: 22px; */
   color: #000000;
-  /* margin-bottom: 0; */
   list-style: disc;
   display: list-item;
 }
@@ -9932,8 +9922,6 @@ h6,
 .tour-details-section{
   border: 1px solid #d2d2d2;
   border-radius: 3px;
-  /* margin-top: 1rem;
-  padding-bottom: 1rem; */
 }
 .mb-6{
   margin-bottom: 5.5rem;
