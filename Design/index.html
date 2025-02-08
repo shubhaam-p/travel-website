@@ -70,14 +70,11 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a class="navbar-brand" href="/">
-                    <img src="./img/Logo.png" alt="logo" class="img-fluid logoImg">
-                </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
+                    <div class="navbar-nav mx-auto py-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="index.html" class="nav-item nav-link">About</a>
                         <a href="index.html#TourPackages" class="nav-item nav-link">Tour Packages</a>
@@ -95,10 +92,10 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-01.jpg" alt="Image">
+                    <img class="w-100 coverImg" src="img/carousel-01.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <img class="w-100" style="border-radius: 50%;" src="img/overlap3.jpg" alt="Image">
+                            <img class="w-100 br-50" src="img/overlap3.jpg" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -108,38 +105,22 @@
     <!-- Carousel End -->
 
     <!-- Packages Start -->
-    <div class="container-fluid py-5" id="TourPackages">
+    <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
-            <div class="text-center mb-3 pb-3">
+            <div class="text-center mb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
-                <h1>Pefect Tour Packages</h1>
+                <h1 id="TourPackages">Pefect Tour Packages</h1>
             </div>
             <div class="row">
-                <div class="row">
-                    <div class="col-md-8 mb-4">
-                        <a href="package.html">
+                <div class="row mt-3">
+                    <div class="col-md-7 mb-4">
                             <div class="package-item bg-white mb-2">
-                                <img class="img-fluid" src="img/test-1.jpg" alt="">
-                            </div>
-                        </a>
+                                <img class="w-100 modal-trigger" id="img1" src="img/package-image-1.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="col-md-4 p-4">
-                        <a href="package.html" class="text-decoration-none" >
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i style="font-size:13px" class="fa">&#xf041;</i>&nbsp;Himachal</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <span class="h5" href="">Pristine Himachal</span>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.1 <small>(250)</small></h6>
-                                    <h5 class="m-0">₹3500</h5>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="border-top mt-4 pt-4 user-rating ">
-                            <span class="heading">User Rating</span>
+                    <div class="col-md-5 reviews-div">
+                        <div class="border-top pt-4 user-rating ">
+                            <span class="heading">User Rating </span>
                             <span class="fa fs-25 fa-star checked"></span>
                             <span class="fa fs-25 fa-star checked"></span>
                             <span class="fa fs-25 fa-star checked"></span>
@@ -147,9 +128,41 @@
                             <span class="fa fs-25 fa-star"></span>
                             <p>4.1 average based on 254 reviews.</p>                                                                                                                                                         
                         </div>
-
-                        <div class="border-top mt-2 reviews">
+                        <div class="mb-3"><a href="package.html">View details</a></div>
+                        <div class="border-top pt-2 mt-2 reviews">
                             <ul>
+                                <li class="mt-2">
+                                    <div>
+                                        <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
+                                    </div>
+                                    <div>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star"></span>
+                                    </div>
+                                    <div class="text-muted fs-14"> Reviewed on 6 February 2025</div>
+                                    <div class="mt-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
+                                    </div>
+                                </li>
+                                <li class="mt-2">
+                                    <div>
+                                        <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
+                                    </div>
+                                    <div>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star"></span>
+                                    </div>
+                                    <div class="text-muted fs-14"> Reviewed on 6 February 2025</div>
+                                    <div class="mt-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
+                                    </div>
+                                </li>
                                 <li class="mt-2">
                                     <div>
                                         <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
@@ -190,32 +203,16 @@
                     </div>
 
                 </div>
-               
-                <div class="row">
-                    <div class="col-md-8 mb-4">
-                        <a href="package.html">
+
+                <div class="row mt-3">
+                    <div class="col-md-7 mb-4">
                             <div class="package-item bg-white mb-2">
-                                <img class="img-fluid" src="img/test-1.jpg" alt="">
-                            </div>
-                        </a>
+                                <img class="w-100 modal-trigger" id="img1" src="img/package-image-2.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="col-md-4 p-4">
-                        <a href="package.html" class="text-decoration-none" >
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i style="font-size:13px" class="fa">&#xf041;</i>&nbsp;Himachal</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <span class="h5" href="">Pristine Himachal</span>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.1 <small>(250)</small></h6>
-                                    <h5 class="m-0">₹3500</h5>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="border-top mt-4 pt-4 user-rating ">
-                            <span class="heading">User Rating</span>
+                    <div class="col-md-5 reviews-div">
+                        <div class="border-top pt-4 user-rating ">
+                            <span class="heading">User Rating </span>
                             <span class="fa fs-25 fa-star checked"></span>
                             <span class="fa fs-25 fa-star checked"></span>
                             <span class="fa fs-25 fa-star checked"></span>
@@ -223,9 +220,41 @@
                             <span class="fa fs-25 fa-star"></span>
                             <p>4.1 average based on 254 reviews.</p>                                                                                                                                                         
                         </div>
-
-                        <div class="border-top mt-2 reviews">
+                        <div class="mb-3"><a href="package.html">View details</a></div>
+                        <div class="border-top pt-2 mt-2 reviews">
                             <ul>
+                                <li class="mt-2">
+                                    <div>
+                                        <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
+                                    </div>
+                                    <div>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star"></span>
+                                    </div>
+                                    <div class="text-muted fs-14"> Reviewed on 6 February 2025</div>
+                                    <div class="mt-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
+                                    </div>
+                                </li>
+                                <li class="mt-2">
+                                    <div>
+                                        <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
+                                    </div>
+                                    <div>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star checked"></span>
+                                        <span class="fa fs-16 fa-star"></span>
+                                    </div>
+                                    <div class="text-muted fs-14"> Reviewed on 6 February 2025</div>
+                                    <div class="mt-2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
+                                    </div>
+                                </li>
                                 <li class="mt-2">
                                     <div>
                                         <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
@@ -264,84 +293,7 @@
                             </ul>
                         </div>
                     </div>
-
-                </div>
-               
-                <div class="row">
-                    <div class="col-md-8 mb-4">
-                        <a href="package.html">
-                            <div class="package-item bg-white mb-2">
-                                <img class="img-fluid" src="img/test-1.jpg" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 p-4">
-                        <a href="package.html" class="text-decoration-none" >
-                            <div class="d-flex justify-content-between mb-3">
-                                
-                                <small class="m-0"><i style="font-size:13px" class="fa">&#xf041;</i>&nbsp;Himachal</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <span class="h5" href="">Pristine Himachal</span>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.1 <small>(250)</small></h6>
-                                    <h5 class="m-0">₹3500</h5>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="border-top mt-4 pt-4 user-rating ">
-                            <span class="heading">User Rating</span>
-                            <span class="fa fs-25 fa-star checked"></span>
-                            <span class="fa fs-25 fa-star checked"></span>
-                            <span class="fa fs-25 fa-star checked"></span>
-                            <span class="fa fs-25 fa-star checked"></span>
-                            <span class="fa fs-25 fa-star"></span>
-                            <p>4.1 average based on 254 reviews.</p>                                                                                                                                                         
-                        </div>
-
-                        <div class="border-top mt-2 reviews">
-                            <ul>
-                                <li class="mt-2">
-                                    <div>
-                                        <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
-                                    </div>
-                                    <div>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star"></span>
-                                    </div>
-                                    <div class="text-muted fs-14"> Reviewed on 6 February 2025</div>
-                                    <div class="mt-2">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
-                                    </div>
-                                </li>
-                                <li class="mt-2">
-                                    <div>
-                                        <i style='font-size:16px' class='fas'>&#xf406;</i> Person 1
-                                    </div>
-                                    <div>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star checked"></span>
-                                        <span class="fa fs-16 fa-star"></span>
-                                    </div>
-                                    <div class="text-muted fs-14"> Reviewed on 6 February 2025</div>
-                                    <div class="mt-2">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
-                                    </div>
-                                </li>
-                                <li class="mt-2">
-                                    <a href="#"> See all reviews </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
+                    
                 </div>
             </div>
         </div>
@@ -450,7 +402,22 @@
     </div>
     <!-- Testimonial End -->
 
-    
+    <!-- The Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" class="img-fluid" alt="Full Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- The Modal -->
     <div class="modal" id="myModal">
         <div class="modal-dialog-plan-trip">
@@ -558,7 +525,7 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="" class="navbar-brand">
                     <a class="navbar-brand" href="/">
-                        <img src="./img/Logo.png" style="width:9rem;"alt="logo" class="img-fluid">
+                        <img src="img/overlap3.jpg" style="width:9rem;" alt="logo" class="img-fluid br-50">
                     </a>
                 </a>
                 <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>

@@ -56,6 +56,13 @@
             }
         }
     });
+
+    $(document).ready(function() {
+        $(".modal-trigger").click(function() {
+            var imgSrc = $(this).attr("src");
+            $("#modalImage").attr("src", imgSrc);
+            $("#imageModal").modal("show");
+    });
     
 })(jQuery);
 

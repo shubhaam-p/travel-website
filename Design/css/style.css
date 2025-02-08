@@ -5464,6 +5464,18 @@ a.close.disabled {
   outline: 0;
 }
 
+#imageModal .modal-content{
+    max-width: 40rem;
+    margin: auto;
+}
+
+.imageModal { 
+    padding-top: 100px;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -5536,6 +5548,22 @@ a.close.disabled {
   .modal-dialog-plan-trip {
     max-width: 800px;
     margin: 1.75rem auto;
+    border:none;
+  }
+  #imageModal .modal-dialog {
+    max-width: 570px;
+  }
+  /* #imageModal {
+    max-width: 800px; */
+    /* margin: 1.75rem auto; */
+    /* border:none;
+  } */
+  .modal-dialog-plan-trip .modal-header{
+    border:none;
+  }
+  #imageModal .modal-header{
+    border:none;
+    padding:0.5rem 1rem 0 1rem !important;
   }
   .modal-dialog-scrollable {
     max-height: calc(100% - 3.5rem);
@@ -9637,6 +9665,7 @@ h6,
 
 .package-item {
   transition: .5s;
+  border-radius: 5px;
 }
 
 .package-item:hover {
@@ -9803,7 +9832,7 @@ h6,
   color: #7AB730;
 }
 .reviews{
-  height: 200px;
+  height: 22rem;
   overflow-y: scroll;
 }
 .reviews ul{
@@ -9953,5 +9982,34 @@ h6,
 .logoImg{
   height: 5rem;
   width: 6rem;
+}
+.carousel-item .coverImg{
+  height: 37.5rem;
+  object-fit: cover;
+  opacity: 80%;
+}
+
+.carousel-item{
+  display: inline-block;
+  background: #fff;
+}
+
+.reviews-div .reviews ul{
+  padding: 0 0.5rem;
+}
+
+.reviews-div{
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.br-50{
+  border-radius: 50%;
+}
+
+.package-item img{
+  height: 32rem; 
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  /* object-fit: contain; */
 }
 /* details page */
