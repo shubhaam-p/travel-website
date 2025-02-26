@@ -5,7 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -10056,19 +10056,111 @@ h6,
   display: block;
 }
 
+.reviews-avg, .fs-avg{
+  font-size: 20px;
+}
+
+.g-review-pname, .fs-review{
+  font-size:16px;
+}
+
 @media (max-width: 576px) {
+  /* Last is 12 px play store */
+  /* start is 10 px play store */
   .reviews-sec{
     /* padding: 10px; */
   }
   .reviews-sec .reviews-heading{
-    font-size: 1.1rem;
+    font-size: 16px;
   }
-  .reviews-avg{
-    font-size: 14px;
+  .fs-avg{
+    font-size: 12px;
+  }
+  .fs-avg{
+    font-size: 16px;
   }
   .image-row {
     margin-bottom: 0;
   }
+  .coverImg{
+    height: 56.25vw !important;
+  }
+  .carousel-caption img{
+    width: 10rem !important;
+    object-fit: contain;
+  }
+  .reviews-count,.reviews-avg{
+    font-size:14px
+  }                                                                                                                                      
+  .g-review-pname, .fs-review{
+    font-size:12px;
+  }
+  .g-review-text{
+    font-size: .875rem;
+    letter-spacing: .0142857143em;
+    line-height: 1.25rem;
+  }
+}
 /* For mobile screen  */
 
-}
+/* Dashbord */
+  .adminDashboard{
+    background-color: #FFF !important;
+  }
+
+  /* .content-editable-box{
+    height: 105px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  } */
+
+  .form-custome-lables{
+    /* font-size: 18px; */
+    font-weight: 500;
+  }
+
+  .admin-list-packages-action-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .admin-list-packages tr td{
+    min-height: 1rem;
+  }
+
+  .admin-list-packages-short-desc-tab, .admin-reviews-comment-tab{
+    max-height: 5rem;
+    overflow-y: auto;
+  }
+  .bg-green{
+    background-color: #a6e7d8;
+  }
+  .text-green{
+    color:#008767;
+  }
+  .border-green{
+    border: #008767 solid;
+  }
+  .bg-red{
+    background-color: #ffc5c5;
+  }
+  .text-red{
+    color:#df0404;
+  }
+  .border-red{
+    border: #df0404 solid;
+  }
+  .border-blue{
+    border: #007bff solid;
+  } 
+  .bg-blue{
+    background-color: #c5d1ff;
+  } 
+  .text-blue{
+    color: #007bff;
+  }
+  .adminDashboard .shadow-lg{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2) !important;
+  }
+/* Dashbord */
