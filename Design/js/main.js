@@ -33,19 +33,19 @@
     });
    
 
-    $('.to-packages').click(function () {
-        if(!window.location.href.includes('index.html'))
-        window.location='index.html#TourPackages'
-        let h = $(window).height();
-        let sh = 0;
-        if(h > 528){
-            sh = 750
-        }else
-            sh = 500
-        console.log("scroll")
-        $('html, body').animate({scrollTop: sh}, 1500, 'easeInQuad');
-        return false;
-    });
+    // $('.to-packages').click(function () {
+    //     if(!window.location.href.includes('index.html'))
+    //     window.location='index.html#TourPackages'
+    //     let h = $(window).height();
+    //     let sh = 0;
+    //     if(h > 528){
+    //         sh = 750
+    //     }else
+    //         sh = 400
+    //     console.log("scroll")
+    //     $('html, body').animate({scrollTop: sh}, 1500, 'easeInQuad');
+    //     return false;
+    // });
 
 
     // Testimonials carousel
