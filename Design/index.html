@@ -77,7 +77,7 @@
                     <div class="navbar-nav mx-auto py-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="index.html#TourPackages" class="nav-item nav-link">Tour Packages</a>
+                        <a href="index.html#TourPackages" class="nav-item nav-link to-packages">Tour Packages</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
@@ -106,47 +106,55 @@
 
     <!-- Packages Start -->
     <div class="container-fluid py-5">
-        <div class="pt-5 pb-3">
-            <div class="text-center mb-3 pb-3 col-md-9 col-12">
+        <div class="pt-5 pb-3 package-p">
+            <div class="text-center mb-3 pb-3 col-md-9 col-12" id="TourPackages">
                 <h3 class="text-primary" style="letter-spacing: 3px;">Tour Packages</h3>
             </div>
             <!-- <div class="row"> -->
 
-                <div class="">
-                    <div class="row row-package">
+                <div class="package-cont">
+                    <div class=" row-package">
                         <div class="col-md-9 col-8 p-0 image-section">
-                            <div class="container image-container-div">
+                            <!-- <div class="container image-container-div"> -->
                                 <!-- First Row -->
                                 <div class="row row-package">
-                                    <div class="col-md-6 col-12 image-container mb-3">
+                                    <div class="col-md-6 col-12 image-container">
                                         <img src="img/package-image-1.jpg" alt="Image 1">
-                            </div>
-                                    <div class="col-md-6 col-12 image-container mb-3">
-                                        <img src="img/package-image-1.jpg" alt="Image 2">
-                    </div>
-                            </div>
-                                <div class="row row-package">
-                                    <div class="col-md-6 col-12 image-container mb-3">
-                                        <img src="img/package-image-1.jpg" alt="Image 3">
                                     </div>
-                                    <div class="col-md-6 col-12 image-container mb-3">
-                                        <img src="img/package-image-1.jpg" alt="Image 4">
+                                    <div class="col-md-6 col-12 image-container">
+                                        <img src="img/package-image-2.jpg" alt="Image 2">
                                     </div>
                                 </div>
-                            </div>
+                                <div class="row row-package">
+                                    <div class="col-md-6 col-12 image-container">
+                                        <img src="img/package-image-3.jpg" alt="Image 3">
+                                    </div>
+                                    <div class="col-md-6 col-12 image-container">
+                                        <img src="img/package-image-4.jpg" alt="Image 4">
+                                    </div>
+                                </div>
+                                <div class="row row-package">
+                                    <div class="col-md-6 col-12 image-container">
+                                        <img src="img/package-image-5.jpg" alt="Image 3">
+                                    </div>
+                                    <div class="col-md-6 col-12 image-container">
+                                        <img src="img/package-image-6.jpg" alt="Image 4">
+                                    </div>
+                                </div>
+                            <!-- </div> -->
                         </div>
 
                         <div class="col-md-3 col-4 reviews-sec">
                             <div class="border-top pt-2 user-rating">
                                 <span class="mb-2 reviews-heading">Our guests' expressions </span>
-                                <div class="text-center reviews-avg">
+                                <div class="reviews-avg">
                                     4.1 <span class="fa fs-avg fa-star checked"></span>
                                 </div>
                                 <span class="reviews-count">254 reviews</span>                                                                                                                                                         
                             </div>
                             <div class="border-top pt-2 mt-2 reviews">
                             <ul class="p-0">
-                                <li class="mt-2 g-review">
+                                <li class="mt-2 mb-3 g-review">
                                     <div class="g-review-pname">
                                         <i class='fas'>&#xf406;</i> Person 1
                                     </div>
@@ -161,7 +169,22 @@
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
                                     </div>
                                 </li>
-                                <li class="mt-2 g-review">
+                                <li class="mt-2 mb-3 g-review">
+                                    <div class="g-review-pname">
+                                        <i class='fas'>&#xf406;</i> Person 1
+                                    </div>
+                                    <div>
+                                        <span class="fa fs-review fa-star checked"></span>
+                                        <span class="fa fs-review fa-star checked"></span>
+                                        <span class="fa fs-review fa-star checked"></span>
+                                        <span class="fa fs-review fa-star checked"></span>
+                                        <span class="fa fs-review fa-star"></span>
+                                    </div>
+                                    <div class="g-review-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.
+                                    </div>
+                                </li>
+                                <li class="mt-2 mb-3 g-review">
                                     <div class="g-review-pname">
                                         <i class='fas'>&#xf406;</i> Person 1
                                     </div>
@@ -189,7 +212,7 @@
     <!-- Packages End -->
 
     <!-- Service Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 service-p">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">PLAN YOUR TRIP</h6>
@@ -226,93 +249,7 @@
     </div>
     <!-- Service End -->
 
-    <!-- Testimonial Start -->
-    <!-- <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h6>
-                <h1>Our guests' expressions</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="text-center pb-4">
-                    <div class="testimonial-text bg-white p-4">
-                        <div class="user-rating">
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star"></span>                                                                                                                                                      
-                        </div>
-                        <div class="mt-4">
-                            <h3>As good as advertised</h3>
-                        </div>
-                        <div class="mt-3 pb-4">
-                            &quot; <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquid distinctio quisquam a voluptatum nobis quo id blanditiis dolore ab.</i>&quot;
-                        </div>
-                        <h5 class="mt-5" style="color:#7AB730">Avinash Darke</h5>
-                    </div>
-                </div>
-              
-                <div class="text-center pb-4">
-                    <div class="testimonial-text bg-white p-4">
-                        <div class="user-rating">
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star"></span>                                                                                                                                                      
-                        </div>
-                        <div class="mt-4">
-                            <h3>Excellent service and good quality</h3>
-                        </div>
-                        <div class="mt-3 pb-4">
-                            &quot; <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquid distinctio quisquam a voluptatum nobis quo id blanditiis dolore ab.</i>&quot;
-                        </div>
-                        <h5 class="mt-5" style="color:#7AB730">Sunny Thakkar</h5>
-                    </div>
-                </div>
-                
-                <div class="text-center pb-4">
-                    <div class="testimonial-text bg-white p-4">
-                        <div class="user-rating">
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star checked"></span>
-                            <span class="fa fs-20 fa-star"></span>                                                                                                                                                      
-                        </div>
-                        <div class="mt-4">
-                            <h3>Great tour!</h3>
-                        </div>
-                        <div class="mt-3 pb-4">
-                            &quot; <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquid distinctio quisquam a voluptatum nobis quo id blanditiis dolore ab.</i>&quot;
-                        </div>
-                        <h5 class="mt-5" style="color:#7AB730">Neha sharma</h5>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-    <!-- Testimonial End -->
-
-    <!-- The Image Modal -->
-    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id="modalImage" src="" class="img-fluid" alt="Full Image">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- The Modal -->
+    <!-- Plan Your Trip Modal -->
     <div class="modal" id="myModal">
         <div class="modal-dialog-plan-trip">
         <div class="modal-content fs-14">
@@ -323,7 +260,7 @@
     
             <div class="modal-body">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 plan-trip-details">
                     <h4 class="font-weight-medium pl-3">How It Works</h4>
                     <ul class="list mt-4">
                     <li>Tell us details of your holiday plan.</li>
@@ -419,10 +356,10 @@
     <!-- modal -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-        <div class="row pt-5">
+    <div class="container-fluid bg-dark text-white-50 pt-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row">
             <div class="col-lg-3 col-md-6 mb-5 text-center">
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand to-packages">
                     <img src="img/overlap3.jpg" style="width:9rem;" alt="logo" class="img-fluid br-50">
                 </a>
                 <p class="text-justify">

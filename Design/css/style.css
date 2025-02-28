@@ -191,7 +191,7 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
+.carousel-item img {
   vertical-align: middle;
   border-style: none;
 }
@@ -9602,7 +9602,7 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/test-11.jpg), no-repeat center center;
   background-size: cover;
 }
 
@@ -9837,7 +9837,7 @@ h6,
 }
 .reviews{
   /* height: 22rem; */
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 .reviews ul{
   list-style: none;
@@ -9846,26 +9846,25 @@ h6,
 
 /* details page */
 .pkg-details-text ul{
-  float: left;
+  /* float: left;
   display: flex;
   align-items: baseline;
-  padding-left: 1px;
+  padding-left: 1px; */
   /* list-style: none; */
 }
 
 .pkg-details-text li{
   /* float: left; */
-  margin-right: 35px;
+  /* margin-right: 35px; */
   /* text-align: center; */
   /* line-height: 25px; */
-  font-size: 12px;
+  /* font-size: 12px;
   color: #585c66;
-  font-weight: 600;
+  font-weight: 600; */
 }
 
-.pkg-details-text li img{
+.pkg-details-text img{
     display: block;
-    margin: 0 auto 0 auto;
     height: 50px;
 }
 
@@ -9953,7 +9952,7 @@ h6,
 }
 
 .tour-details-section{
-  border: 1px solid #d2d2d2;
+  /* border: 1px solid #d2d2d2; */
   border-radius: 3px;
 }
 .mb-6{
@@ -10025,7 +10024,6 @@ h6,
 .row-package {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
 }
 .image-container img {
   width: 100%;
@@ -10034,6 +10032,9 @@ h6,
   border-radius: 5px;
 }
 
+.image-container{
+    margin-bottom:1rem;
+}
 
 /* .image-container-div, .reviews-sec{
   display: flex;
@@ -10074,9 +10075,6 @@ h6,
     font-size: 16px;
   }
   .fs-avg{
-    font-size: 12px;
-  }
-  .fs-avg{
     font-size: 16px;
   }
   .image-row {
@@ -10100,8 +10098,82 @@ h6,
     letter-spacing: .0142857143em;
     line-height: 1.25rem;
   }
+
+  /* package */
+  .image-container{
+    margin-bottom:1rem;
+  }
+  
+  .incl-row div{
+    font-size: 14px;
+  }
+  
+  .details-list h5{
+    font-size: 16px;
+  }
+  .details-list p{
+    font-size: 14px;
+  }
+  .details-list li{
+    font-size: 14px;
+  }
+  .tour-details-wrap ul.tour-details li .details-list.details-empty {
+    display: none;
+  }
+
+  .tour-details-wrap ul.tour-details li:nth-child(odd) .details-list::before {
+  left: -35px;
+  right: inherit;
+  }
+
+  .tour-details-wrap ul.tour-details li:nth-child(even) .details-list::before {
+  left: -35px;
+  right: inherit;
+  }
+  .tour-details-wrap ul.tour-details {
+    padding-left: 20px;
+  }
+  .tour-details-wrap ul.tour-details::before {
+    width: 1px;
+    left: 18px;
+    margin: inherit;
+  }
+
+  .tour-details-wrap .details-list {
+    margin-bottom: 20px !important;
+  }
+  .header-img, .page-header{
+    min-height: 75px !important;
+  }
+  .header-img .display-4, .page-header .display-4 {
+    font-size: 23px;
+  }
+
+  /* package */
+
+  .service-p, .package-p, .about-p{
+    padding: 0 !important;
+  }
+
+  .plan-trip-details{
+    display: none;
+  }
+
+  .contact-form{
+    padding: 1.5rem !important;
+  }
+
+  /* about-us */
+   .about-body p{
+    padding: 0 !important;
+   }
+  /* about-us */
 }
 /* For mobile screen  */
+
+.header-img{
+  min-height: 200px
+}
 
 /* Dashbord */
   .adminDashboard{

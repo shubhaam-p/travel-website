@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Package</title>
+    <title>Home</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Tours & Travel website" name="keywords">
     <meta content="Tours & Travel website" name="description">
 
     <!-- Favicon -->
-    <!-- <link href="img/favicon.ico" rel="icon"> -->
+    <!-- <link href="img/favicon.ic o" rel="icon"> -->
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,6 +20,9 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- - for user rating --Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -34,7 +37,7 @@
                     <div class="d-inline-flex align-items-center">
                         <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
                         <p class="text-body px-3">|</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                        <p><i class="fas fa-phone-alt"></i>+012 345 6789</p>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
@@ -66,16 +69,13 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a class="navbar-brand" href="/">
-                    <img src="./img/Logo.png" alt="logo" class="img-fluid logoImg">
-                </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="index.html" class="nav-item nav-link">About</a>
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="index.html#TourPackages" class="nav-item nav-link">Tour Packages</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
@@ -88,8 +88,8 @@
 
     <!-- Header Start -->
     <div class="container-fluid package-page-header pb-4">
-        <div class="container">
-            <div class="d-flex flex-column align-items-center justify-content-end" style="min-height: 200px">
+        <div class="">
+            <div class="d-flex flex-column align-items-center justify-content-end header-img">
                 <h3 class="display-4 text-white text-uppercase">Packages</h3>
                 <div class="d-inline-flex text-white">
                     <p class="m-0 text-uppercase"><a class="text-white" href="#">Home</a></p>
@@ -100,7 +100,7 @@
         </div>
     </div>
     <!-- Header End -->
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row pt-4 my-4">
             <div class="col-md-8">
@@ -108,25 +108,25 @@
                     <img class="img-fluid" src="img/test-1.jpg" alt="">
                 </div>
             </div>
-            <div class="col-md-4 pkg-details-text pt-5">
+            <div class="col-md-4 pkg-details-text pt-2">
                 <h2>Himachal</h1>
                 <span>5 Nights - 6 Days</span>
-                <div class="border-top mt-4 pt-5">
+                <div class="border-top mt-3 py-3">
                     <h5>Inclusions</h5>
-                    <ul>
-                        <li><img src="img/3-star.svg" alt="star hotel">
-                           Accommodation
-                        </li>
-                        <li><img src="img/transport.svg" alt="transport">
-                           Transfer
-                        </li>
-                        <li><img src="img/meal.svg" alt="meal">
-                           Meals
-                        </li>
-                        <li><img src="img/sightseeing.svg" alt="sightseeing">
-                           Sightseeing
-                        </li>
-                    </ul>
+                    <div class="row incl-row">
+                        <div class="col-2"><img src="img/3-star.svg" alt="star hotel">
+                           Stay
+                        </div>
+                        <div class="col-3"><img src="img/transport.svg" alt="transport" style="height: 55px;">
+                           Transport
+                        </div>
+                        <div class="col-3"><img src="img/meal.svg" alt="meal">
+                           Food <wbr> (MAP) </wbr>
+                        </div>
+                        <div class="col-3"><img src="img/sightseeing.svg" alt="sightseeing">
+                           Sight<wbr>seeing</wbr>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -135,7 +135,7 @@
         <section class="tour-details-section pb-3">
             <div class="tour-details-heading mt-4 pt-4 mb-6 text-center">
                 <h4 class="mb-3">Itinerary of 5 nights 6 days</h4>
-                <p class="mx-5" align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque et totam ad hic? Laboriosam, velit libero. Modi deserunt soluta vero alias animi impedit, fugit tenetur reprehenderit laborum voluptate perspiciatis voluptatibus, delectus perferendis tempora totam doloremque, qui dolor. Quasi, recusandae vitae.</p>
+                <p class="mx-3" align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque et totam ad hic? Laboriosam, velit libero. Modi deserunt soluta vero alias animi impedit, fugit tenetur reprehenderit laborum voluptate perspiciatis voluptatibus, delectus perferendis tempora totam doloremque, qui dolor. Quasi, recusandae vitae.</p>
             </div>
             <div class="row justify-content-center mt-2 mt-md-3">
                 <div class="col-md-12 col-lg-10">
@@ -144,7 +144,7 @@
                             <li>
                                 <div class="details-list">
                                     <h5>Day 1</h5>
-                                    <p align="justify">Cochin to Athirapally Vazhachal</p>
+                                    <p>Cochin to Athirapally Vazhachal</p>
                                     <ul>
                                         <li>Drive to Athirapally-vazhachal.</li>
                                         <li>Enjoy the beauty of this unique waterfalls and stay at Athirapilly.</li>
@@ -156,7 +156,7 @@
                             <li>
                                 <div class="details-list">
                                     <h5>Day 2</h5>
-                                    <p align="justify">Munnar</p>
+                                    <p>Munnar</p>
                                     <ul>
                                         <li>Lorem ipsum dolor sit amet.</li>
                                         <li>Lorem ipsum dolor sit amet.</li>
@@ -168,7 +168,7 @@
                             <li>
                                 <div class="details-list">
                                     <h5>Day 3</h5>
-                                    <p align="justify">Cochin sightseeing and drop</p>
+                                    <p>Cochin sightseeing and drop</p>
                                     <ul>
                                         <li>Lorem ipsum dolor sit amet.</li>
                                         <li>Lorem ipsum dolor sit amet.</li>
@@ -180,7 +180,7 @@
                             <li>
                                 <div class="details-list">
                                     <h5>Day 4</h5>
-                                    <p align="justify">Cochin to Athirapally Vazhachal</p>
+                                    <p>Cochin to Athirapally Vazhachal</p>
                                     <ul>
                                         <li>Drive to Athirapally-vazhachal.</li>
                                         <li>Enjoy the beauty of this unique waterfalls and stay at Athirapilly.</li>
@@ -192,7 +192,7 @@
                             <li>
                                 <div class="details-list">
                                     <h5>Day 5</h5>
-                                    <p align="justify">Cochin to Athirapally Vazhachal</p>
+                                    <p>Cochin to Athirapally Vazhachal</p>
                                     <ul>
                                         <li>Drive to Athirapally-vazhachal.</li>
                                         <li>Enjoy the beauty of this unique waterfalls and stay at Athirapilly.</li>
@@ -204,7 +204,7 @@
                             <li>
                                 <div class="details-list">
                                     <h5>Day 6</h5>
-                                    <p align="justify">Cochin to Athirapally Vazhachal</p>
+                                    <p>Cochin to Athirapally Vazhachal</p>
                                     <ul>
                                         <li>Drive to Athirapally-vazhachal.</li>
                                         <li>Enjoy the beauty of this unique waterfalls and stay at Athirapilly.</li>
@@ -221,15 +221,15 @@
     </div>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-        <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <a href="" class="navbar-brand">
+    <div class="container-fluid bg-dark text-white-50 pt-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5 text-center">
                     <a class="navbar-brand" href="/">
-                        <img src="./img/Logo.png" style="width:9rem;"alt="logo" class="img-fluid">
-                    </a>
+                    <img src="img/overlap3.jpg" style="width:9rem;" alt="logo" class="img-fluid br-50">
                 </a>
-                <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
+                <p class="text-justify">
+                    "Scripted family vacations". Yes, that's our tagline and we want to live up to  that. We'll be glad to assist you in your holiday plans to make it easy and more memorable for you. Our aim is not business, it is long term business.
+                </p>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
@@ -269,6 +269,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"> </script> 
+    <script src="js/validate-form.js"></script>
 </body>
 
 </html>
